@@ -1,6 +1,6 @@
 echo "enter your name"
 read a
-if ( who grep -w $a )
+if ( who | grep -w $a )
 then 
 echo "user is logged"
 else
